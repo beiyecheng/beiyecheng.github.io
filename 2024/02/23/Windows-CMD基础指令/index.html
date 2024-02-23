@@ -1,0 +1,160 @@
+
+
+  <!DOCTYPE html>
+  <html lang="zh-CN">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content=嘿，我是Gavin～这是我的子站，用于展示写的Hexo主题：MiHoYo。欢迎访问！ >
+  <meta name="keywords" content=hexo,theme,MiHoYo >
+
+  <head>
+    <title>
+      Windows CMD基础指令 [ Gavin ]
+    </title>
+  <meta name="generator" content="Hexo 6.3.0"></head>
+
+  <body>
+
+    <link rel="stylesheet" href="/css/header.css">
+<div class="header">
+  <div class="logo">
+    <span class="pull-left">
+      <a id="site-name" href="/">
+        Gavin&#39;s blog
+      </a>
+    </span>
+  </div>
+  <ul class="nav-list">
+    
+      <li>
+        <a href="/">
+          首页
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about">
+          关于
+        </a>
+      </li>
+      
+  </ul>
+</div>
+
+      <!--<link rel="stylesheet" href="/css/top-header.css">
+<div id="top-bar" class="fixed">
+
+  <a class="goto-top" href="#"></a>
+  <ul class="bar-list bar-list-1">
+    
+      <li>
+        <p>
+          <a href="/">
+            <text class="bar-text bar-p1">
+              首页
+            </text>
+            <text class="bar-text bar-p2"></text>
+          </a>
+          <text class="bar-p3">/</text>
+        </p>
+      </li>
+      
+      <li>
+        <p>
+          <a href="/about">
+            <text class="bar-text bar-p1">
+              关于
+            </text>
+            <text class="bar-text bar-p2"></text>
+          </a>
+          <text class="bar-p3">/</text>
+        </p>
+      </li>
+      
+  </ul>
+</div>-->
+
+        <div id="content-outer">
+          <div class="content-inner">
+            <link rel="stylesheet" href="/css/post.css">
+<div class="posts">
+  <a href="/index.html"><i class="fa fa-home
+replay-btn" aria-hidden="true"></i></a>
+  <div class="post-title">
+    <p>
+      Windows CMD基础指令
+    </p>
+    <hr>
+  </div>
+  <div class="post-content">
+    <h1 id="Windows-CMD-基础命令"><a href="#Windows-CMD-基础命令" class="headerlink" title="Windows CMD 基础命令"></a>Windows CMD 基础命令</h1><h4 id="1-cmd-notion"><a href="#1-cmd-notion" class="headerlink" title="1.cmd notion"></a>1.cmd notion</h4><p>cd -&gt;means change directory so from here 改变目录</p>
+<p>cd .. -&gt;means take me to the parent 返回父录</p>
+<p>cd Desktop\Videos 可以直接跳转到Videos</p>
+<p>cd ..&#x2F;.. -&gt;means take back two steps </p>
+<p>tab键（自动输入）</p>
+<h4 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h4><p>dir 导航  -&gt; list all directory</p>
+<p>dir 目录名&#x2F;目录名&#x2F;……（显示指定目录内容）</p>
+<p>dir &#x2F;a（显示隐藏目录内容）</p>
+<h4 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h4><p>dir *.png -&gt; list all the png</p>
+<p>cls -&gt;means clear screen</p>
+<p>PgUp go back previous commmands (history)</p>
+<p>PgDn go back to the most recent one (foreard)</p>
+<p>ipconfig &#x2F;? -&gt;means access the help and options menu</p>
+<p>输入文件名（打开文件）；</p>
+<h4 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h4><p>mkdir  -&gt;means make directory </p>
+<p>rmdir  -&gt;means remove this directory (删除空目录）</p>
+<p>rmdir &#x2F;s  (删除目录以及所有目录中的文件)</p>
+<p>ctrl+←键（上一个单词）；</p>
+<p>ctrl+→键（下一个单词）；</p>
+<p>←键（上一个字符）；</p>
+<p>→键（下一个字符）；</p>
+<h4 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h4><p>cd ‘’C:&#x2F;……’’（改变目录到绝对路径）；PS：引号不可省略；</p>
+<p>输入程序名（打开目录或路径环境变量中的程序）；</p>
+<p>path（查看路径环境变量）；</p>
+<h4 id="6"><a href="#6" class="headerlink" title="6."></a>6.</h4><p>wmic logicaldisk get name（查看驱动器名称）；</p>
+<p>c&#x2F;d&#x2F;e&#x2F;f:（打开对应驱动器）；</p>
+<p>tree（查看目录结构）；</p>
+<p>color（改变界面颜色，具体可查看帮助文件）；</p>
+<p>color &#x2F;? -&gt; help      </p>
+<h4 id="7"><a href="#7" class="headerlink" title="7."></a>7.</h4><p>attrib（更改文件属性）；</p>
+<h4 id="8"><a href="#8" class="headerlink" title="8."></a>8.</h4><p>del（删除文件）；</p>
+<p>echo ******* &gt; 文件名（输入内容至文件内）；</p>
+<p>type 文件名（查看文本文件内容）；</p>
+<p>echo ******* &gt;&gt; 文件名（添加内容至文件结尾）；</p>
+<p>命令 &gt; 文件名（将运行结果输入至文本文件）；</p>
+<h4 id="9"><a href="#9" class="headerlink" title="9."></a>9.</h4><p>copy 文件名 位置（复制文件）；</p>
+<p>xcopy 目录1 目录2 （复制目录1不包括子目录文件至目录2）；</p>
+<p>xcopy 目录1 目录2 &#x2F;s（复制目录1包括子目录文件至目录2）；</p>
+<p>move 目录1 目录2 （移动目录1至目录2）；</p>
+<p>rename 原目录名 新目录名（重命名目录）；</p>
+
+  </div>
+  
+</div>
+          </div>
+        </div>
+
+        <link rel="stylesheet" href="/css/footer.css">
+<div class="bottom-outer">
+  <div class="copyright">©2024 - 2024 By Gavin</div>
+  <div class="framework-info">
+    <span>Power by</span>
+    <a class="a1" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>
+    <span class="footer-separator">|</span>
+    <span>Theme by</span>
+    <a class="a2" target="_blank" rel="noopener" href="https://github.com/redhat123456/hexo-theme-MiHoYo">MiHoYo</a>
+  </div>
+</div>
+
+          
+            <!-- scripts list from theme config.yml -->
+            
+              <script src="/js/MiHoYo.js"></script>
+              
+                
+
+  </body>
+
+  </html>
